@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Seitenblick Statistik 0.3.0\n"
+"Project-Id-Version: Seitenblick Statistik 0.3.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/seitenblick\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #. Author URI of the plugin
 #: seitenblick.php
-msgid "https://profiles.wordpress.org/exestend/"
+msgid "https://wald-schein.de/"
 msgstr ""
 
 #: includes/admin.php:13

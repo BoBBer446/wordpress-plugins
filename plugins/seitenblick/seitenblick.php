@@ -8,19 +8,19 @@
 /**
  * Plugin Name: Seitenblick Statistik
  * Description: Lokale Seitenstatistik mit farbigem Dashboard, sparsamen Zählern und freiwilliger aktiver Zeitmessung.
- * Version: 0.3.0
+ * Version: 0.3.1
  * Requires at least: 6.5
  * Requires PHP: 8.1
  * Plugin URI: https://github.com/BoBBer446/wordpress-plugins/tree/main/plugins/seitenblick
  * Author: René Wurch
- * Author URI: https://profiles.wordpress.org/exestend/
+ * Author URI: https://wald-schein.de/
  * License: GPL-2.0-or-later
  * Text Domain: seitenblick
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-define( 'SBK_VERSION', '0.3.0' );
+define( 'SBK_VERSION', '0.3.1' );
 define( 'SBK_FILE', __FILE__ );
 define( 'SBK_DIR', __DIR__ );
 require_once SBK_DIR . '/includes/storage.php';

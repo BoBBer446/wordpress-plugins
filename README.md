@@ -19,7 +19,7 @@ Quellcode und WordPress-Readme: [plugins/seitenblick](plugins/seitenblick). Anle
 
 ## Download
 
-Das installierbare [ZIP für Seitenblick 0.3.0](https://github.com/BoBBer446/wordpress-plugins/releases/download/seitenblick-v0.3.0/seitenblick-0.3.0.zip) liegt bei den [Releases](https://github.com/BoBBer446/wordpress-plugins/releases/tag/seitenblick-v0.3.0). Das Paket ist für die WordPress.org-Einreichung vorbereitet; die dortige Prüfung steht noch aus.
+Das installierbare [ZIP für Seitenblick 0.3.1](https://github.com/BoBBer446/wordpress-plugins/releases/download/seitenblick-v0.3.1/seitenblick-0.3.1.zip) liegt bei den [Releases](https://github.com/BoBBer446/wordpress-plugins/releases/tag/seitenblick-v0.3.1). Das Paket ist für die WordPress.org-Einreichung vorbereitet; die dortige Prüfung steht noch aus.
 
 ## Entwicklung
 

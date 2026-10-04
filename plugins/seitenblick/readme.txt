@@ -5,7 +5,7 @@ Tags: statistics, analytics, privacy, consent, dashboard
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 0.3.0
+Stable tag: 0.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,6 +101,9 @@ No. Every included feature works without a donation. You can hide the admin dona
 
 == Changelog ==
 
+= 0.3.1 =
+* Link the author name to wald-schein.de.
+
 = 0.3.0 =
 * Prepare the plugin for WordPress.org review.
 * Use WordPress enqueue functions on standard themes.
@@ -120,6 +123,9 @@ No. Every included feature works without a donation. You can hide the admin dona
 * First installable development version.
 
 == Upgrade Notice ==
+
+= 0.3.1 =
+The author link now opens wald-schein.de. Statistics and settings are unchanged.
 
 = 0.3.0 =
 Review service settings and consent text after upgrading. Existing statistics and settings are retained.

@@ -1,6 +1,6 @@
 # Seitenblick für WordPress.org
 
-Stand: 4. Oktober 2026. Version 0.3.0 ist für die Einreichung vorbereitet. Sie ist noch nicht von WordPress.org freigegeben und noch nicht im Plugin-Verzeichnis veröffentlicht.
+Stand: 4. Oktober 2026. Version 0.3.1 ist für die Einreichung vorbereitet. Sie ist noch nicht von WordPress.org freigegeben und noch nicht im Plugin-Verzeichnis veröffentlicht.
 
 ## Paket und Konto
 
@@ -26,6 +26,8 @@ Die Verzeichnis-Readme ist auf Englisch, weil der offizielle Plugin Check dies f
 | Einstellungen                                      | Speichern und erneutes Laden auf isolierter Installation geprüft         |
 | Installationspaket                                 | Version, Stable tag, Inhalt und ZIP-Integrität geprüft                   |
 
+Version 0.3.1 ändert den Autorenlink auf https://wald-schein.de/ und die zugehörigen Versions- und Dokumentationsangaben. Die Funktionsprüfungen gelten für den unveränderten Funktionscode aus Version 0.3.0.
+
 Die Funktionsprüfungen betreffen WordPress 7.1.2 und PHP 8.3.35. Die angegebene Mindestversion WordPress 6.5 ist nicht als vollständig geprüfte Browsermatrix dargestellt. MySQL, Multisite, sämtliche Cache-Systeme und beliebige Fremdplugins sind nicht als getestet behauptet.
 
 Die Browserprüfung verwendet eine eigene Datenbank, eigene Dateien und eine lokale Prüfadresse. Fehlgeschlagene Versuche durch den Prüftransport wurden korrigiert. Es wurden keine produktiven Inhalte oder Einstellungen geändert und keine Zahlung ausgeführt.
@@ -42,13 +44,13 @@ Für die eigenen Tabellen gibt es keine passende WordPress-Inhaltsabfrage. Summe
 
 Tabellenkennungen und Werte werden vorbereitet. Zählerspalten stammen aus einer festen Liste. Dynamische SQL-Teile enthalten nur selbst erzeugte Platzhalter; die betreffende Ausnahme ist im Code begründet. Die Hinweise wurden nicht pauschal ausgeblendet. Die manuelle Prüfung kann weitere Änderungen verlangen.
 
-Das [Einreichungspaket](https://github.com/BoBBer446/wordpress-plugins/releases/tag/seitenblick-v0.3.0) enthält das installierbare ZIP und dessen SHA256-Prüfsumme. Der Readme-Validator wurde mit der öffentlichen readme.txt dieses Repositorys geprüft.
+Das [Einreichungspaket](https://github.com/BoBBer446/wordpress-plugins/releases/tag/seitenblick-v0.3.1) enthält das installierbare ZIP und dessen SHA256-Prüfsumme. Der Readme-Validator wurde mit der öffentlichen readme.txt dieses Repositorys geprüft.
 
 ## Einreichen
 
 1. Mit eXestend bei WordPress.org anmelden.
 2. [Plugin einreichen](https://de.wordpress.org/plugins/developers/add/) öffnen.
-3. Das Paket seitenblick-0.3.0.zip hochladen.
+3. Das Paket seitenblick-0.3.1.zip hochladen.
 4. Die Angaben zur Lizenz, Verantwortung und Pflege im Formular prüfen und die Einreichung abschicken.
 5. Auf die Rückmeldung des Plugin-Teams reagieren. Erst dessen Freigabe bestätigt die Aufnahme.
 
@@ -60,7 +62,7 @@ Der Plugin Check ersetzt die manuelle Prüfung nicht. Ebenso sind die technische
 
 WordPress.org verteilt Plugins aus seinem SVN-Repository. GitHub ist der Entwicklungsort; ein GitHub-Upload allein veröffentlicht nichts im WordPress-Verzeichnis.
 
-Das Werkzeug tools/prepare_svn.py legt lokal trunk/, tags/0.3.0/ und assets/ an. Übertrage deren Inhalt anschließend in den von WordPress.org zugewiesenen SVN-Checkout. Die Hauptdatei liegt direkt in trunk/ und im Versionsordner. Screenshots kommen nach assets/. Prüfe mit svn status und svn diff, bevor du einen fertigen Release überträgst.
+Das Werkzeug tools/prepare_svn.py legt lokal trunk/, tags/0.3.1/ und assets/ an. Übertrage deren Inhalt anschließend in den von WordPress.org zugewiesenen SVN-Checkout. Die Hauptdatei liegt direkt in trunk/ und im Versionsordner. Screenshots kommen nach assets/. Prüfe mit svn status und svn diff, bevor du einen fertigen Release überträgst.
 
 Es gibt keinen automatischen SVN-Upload und keinen Update-Dienst außerhalb von WordPress.org.
 
