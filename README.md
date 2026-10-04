@@ -17,6 +17,10 @@ Die Statistik speichert keine Besucherprofile und keine IP-Adressen. Aufrufe sin
 
 Quellcode und WordPress-Readme: [plugins/seitenblick](plugins/seitenblick). Anleitung: [Seitenblick installieren](docs/seitenblick.md). Prüfstand und Schritte für WordPress.org: [Veröffentlichung](docs/veroeffentlichung.md).
 
+## Download
+
+Das installierbare [ZIP für Seitenblick 0.3.0](https://github.com/BoBBer446/wordpress-plugins/releases/download/seitenblick-v0.3.0/seitenblick-0.3.0.zip) liegt bei den [Releases](https://github.com/BoBBer446/wordpress-plugins/releases/tag/seitenblick-v0.3.0). Das Paket ist für die WordPress.org-Einreichung vorbereitet; die dortige Prüfung steht noch aus.
+
 ## Entwicklung
 
 Die Plugin-Dateien sind lesbarer PHP-, JavaScript- und CSS-Code. Es gibt keine minifizierten Dateien und keinen Build-Schritt für die Installation. Mit `python3 tools/package.py seitenblick` entsteht ein ZIP mit dem Plugin-Ordner. Entwicklungsunterlagen und Tests gehören nicht ins Installationspaket.

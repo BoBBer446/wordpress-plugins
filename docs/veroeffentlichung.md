@@ -12,18 +12,19 @@ Die Verzeichnis-Readme ist auf Englisch, weil der offizielle Plugin Check dies f
 
 ## Geprüfter Stand
 
-| Prüfung | Ergebnis |
-| --- | --- |
-| WordPress 7.1.2, PHP 8.3.35, MariaDB 11.8.9/InnoDB | Aktivierung und Funktionen geprüft |
-| PHP 8.1.2 unter Ubuntu | Syntax aller PHP-Dateien geprüft |
-| Offizieller Plugin Check, statisch | 0 Fehler, 46 Datenbankhinweise |
-| Offizieller Plugin Check mit Laufzeitprüfungen | 0 Fehler, dieselben 46 Datenbankhinweise |
-| WordPress-/Datenbankprüfungen | 157 Prüfungen bestanden |
-| Browserprüfung auf isolierter Installation | 29 Prüfungen bestanden |
-| Darstellung | 1440, 390 und 320 Pixel ohne Überlauf; visuell geprüft |
-| Messung | Tatsächliche Ansicht und aktive Zeit nach Einwilligung; Widerruf geprüft |
-| Einstellungen | Speichern und erneutes Laden auf isolierter Installation geprüft |
-| Installationspaket | Version, Stable tag, Inhalt und ZIP-Integrität geprüft |
+| Prüfung                                            | Ergebnis                                                                 |
+| -------------------------------------------------- | ------------------------------------------------------------------------ |
+| WordPress 7.1.2, PHP 8.3.35, MariaDB 11.8.9/InnoDB | Aktivierung und Funktionen geprüft                                       |
+| PHP 8.1.2 unter Ubuntu                             | Syntax aller PHP-Dateien geprüft                                         |
+| Offizieller Plugin Check, statisch                 | 0 Fehler, 46 Datenbankhinweise                                           |
+| Offizieller Plugin Check mit Laufzeitprüfungen     | 0 Fehler, dieselben 46 Datenbankhinweise                                 |
+| Öffentlicher WordPress-Readme-Validator            | Keine Fehler gefunden                                                    |
+| WordPress-/Datenbankprüfungen                      | 157 Prüfungen bestanden                                                  |
+| Browserprüfung auf isolierter Installation         | 29 Prüfungen bestanden                                                   |
+| Darstellung                                        | 1440, 390 und 320 Pixel ohne Überlauf; visuell geprüft                   |
+| Messung                                            | Tatsächliche Ansicht und aktive Zeit nach Einwilligung; Widerruf geprüft |
+| Einstellungen                                      | Speichern und erneutes Laden auf isolierter Installation geprüft         |
+| Installationspaket                                 | Version, Stable tag, Inhalt und ZIP-Integrität geprüft                   |
 
 Die Funktionsprüfungen betreffen WordPress 7.1.2 und PHP 8.3.35. Die angegebene Mindestversion WordPress 6.5 ist nicht als vollständig geprüfte Browsermatrix dargestellt. MySQL, Multisite, sämtliche Cache-Systeme und beliebige Fremdplugins sind nicht als getestet behauptet.
 
@@ -40,6 +41,8 @@ Die verbliebenen Hinweise betreffen:
 Für die eigenen Tabellen gibt es keine passende WordPress-Inhaltsabfrage. Summen werden atomar erhöht; Zeitbelege werden in einer Transaktion gesperrt und fortgeschrieben. Diese Vorgänge und Replay-Prüfungen dürfen keine veralteten Cachewerte verwenden. Berichte lesen aktuelle Summen. Der Schemahinweis betrifft ausschließlich das Löschen der beiden eigenen Tabellen nach zuvor eingeschalteter Löschoption.
 
 Tabellenkennungen und Werte werden vorbereitet. Zählerspalten stammen aus einer festen Liste. Dynamische SQL-Teile enthalten nur selbst erzeugte Platzhalter; die betreffende Ausnahme ist im Code begründet. Die Hinweise wurden nicht pauschal ausgeblendet. Die manuelle Prüfung kann weitere Änderungen verlangen.
+
+Das [Einreichungspaket](https://github.com/BoBBer446/wordpress-plugins/releases/tag/seitenblick-v0.3.0) enthält das installierbare ZIP und dessen SHA256-Prüfsumme. Der Readme-Validator wurde mit der öffentlichen readme.txt dieses Repositorys geprüft.
 
 ## Einreichen
 
