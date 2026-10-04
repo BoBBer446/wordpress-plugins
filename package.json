@@ -1,0 +1,13 @@
+{
+  "name": "wordpress-plugins",
+  "private": true,
+  "description": "Entwicklungswerkzeuge f\u00fcr die WordPress-Plugins in diesem Repository.",
+  "scripts": {
+    "format": "prettier --write \"plugins/*/assets/*.{js,css}\"",
+    "format:check": "prettier --check \"plugins/*/assets/*.{js,css}\""
+  },
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "playwright": "1.63.0"
+  }
+}

@@ -1,0 +1,1040 @@
+# Copyright (C) 2026 René Wurch
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Seitenblick Statistik 0.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/seitenblick\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-04T10:53:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: seitenblick\n"
+
+#. Plugin Name of the plugin
+#: seitenblick.php
+#: includes/admin.php:92
+#: seitenblick.php:58
+msgid "Seitenblick Statistik"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: seitenblick.php
+msgid "https://github.com/BoBBer446/wordpress-plugins/tree/main/plugins/seitenblick"
+msgstr ""
+
+#. Description of the plugin
+#: seitenblick.php
+msgid "Lokale Seitenstatistik mit farbigem Dashboard, sparsamen Zählern und freiwilliger aktiver Zeitmessung."
+msgstr ""
+
+#. Author of the plugin
+#: seitenblick.php
+msgid "René Wurch"
+msgstr ""
+
+#. Author URI of the plugin
+#: seitenblick.php
+msgid "https://profiles.wordpress.org/exestend/"
+msgstr ""
+
+#: includes/admin.php:13
+msgid "Diese Statistik ist nur für Administratoren verfügbar."
+msgstr ""
+
+#: includes/admin.php:34
+msgid "Ehemalige öffentliche Seite"
+msgstr ""
+
+#: includes/admin.php:35
+#: includes/collection.php:73
+#: includes/collection.php:106
+msgid "Website"
+msgstr ""
+
+#: includes/admin.php:81
+#: includes/admin.php:215
+msgid "Ungültiger Zeitraum."
+msgstr ""
+
+#: includes/admin.php:92
+#: includes/admin.php:122
+#: includes/admin.php:175
+msgid "Seitenblick"
+msgstr ""
+
+#: includes/admin.php:117
+#: includes/admin.php:181
+msgid "Zugriff nicht erlaubt."
+msgstr ""
+
+#: includes/admin.php:122
+msgid "Lokal auf deinem Server"
+msgstr ""
+
+#: includes/admin.php:124
+msgid "DEINE WEBSITE IN ZAHLEN"
+msgstr ""
+
+#: includes/admin.php:128
+msgid "Zeitraum"
+msgstr ""
+
+#. translators: %d: Number of days in the selected reporting period.
+#: includes/admin.php:135
+#, php-format
+msgid "%d Tage"
+msgstr ""
+
+#: includes/admin.php:139
+#: includes/i18n.php:19
+msgid "Beispieldaten ansehen"
+msgstr ""
+
+#: includes/admin.php:139
+msgid "CSV exportieren"
+msgstr ""
+
+#: includes/admin.php:141
+#: includes/i18n.php:38
+msgid "Statistik wird geladen …"
+msgstr ""
+
+#: includes/admin.php:142
+msgid "Vorschau: Diese Zahlen sind erfundene Beispieldaten. Sie werden nicht gespeichert."
+msgstr ""
+
+#: includes/admin.php:144
+#: includes/admin.php:150
+msgid "Seitenaufrufe"
+msgstr ""
+
+#: includes/admin.php:144
+msgid "Serverzählung · bekannte Bots gefiltert"
+msgstr ""
+
+#: includes/admin.php:145
+#: includes/admin.php:150
+#: includes/admin.php:225
+msgid "Gemessene Ansichten"
+msgstr ""
+
+#: includes/admin.php:145
+msgid "Seiten & App-Navigation"
+msgstr ""
+
+#: includes/admin.php:145
+msgid "Nur mit freiwilliger Einwilligung"
+msgstr ""
+
+#: includes/admin.php:146
+#: includes/admin.php:153
+msgid "Ø aktive Zeit"
+msgstr ""
+
+#: includes/admin.php:146
+msgid "Sichtbar, fokussiert & kürzlich aktiv"
+msgstr ""
+
+#: includes/admin.php:147
+msgid "Länger verweilt"
+msgstr ""
+
+#: includes/admin.php:147
+msgid "Mindestens 30 aktive Sekunden"
+msgstr ""
+
+#: includes/admin.php:147
+msgid "Anteil an den gemessenen Ansichten"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "ENTWICKLUNG"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "Aufrufe im Verlauf"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "Tagesverlauf der Seitenaufrufe"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "Tageswerte als Tabelle"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "Datum"
+msgstr ""
+
+#: includes/admin.php:150
+#: includes/admin.php:153
+msgid "Aufrufe"
+msgstr ""
+
+#: includes/admin.php:151
+msgid "GERÄTE"
+msgstr ""
+
+#: includes/admin.php:151
+msgid "Wie wird geöffnet?"
+msgstr ""
+
+#: includes/admin.php:151
+msgid "Grobe Klassen der Serveraufrufe. Keine Gerätekennung."
+msgstr ""
+
+#: includes/admin.php:153
+msgid "INHALTE"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Welche Seiten interessieren?"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Seite suchen"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Titel oder Seite …"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Serveraufrufe und freiwillige App-Ansichten sind getrennte Messgrößen und werden nicht addiert. Die Zeit gehört nur zur Einwilligungsstichprobe."
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Seite"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Gemessen"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Aktive Zeit gesamt"
+msgstr ""
+
+#: includes/admin.php:155
+msgid "TAGESZEITEN"
+msgstr ""
+
+#: includes/admin.php:155
+msgid "Wann wird gelesen?"
+msgstr ""
+
+#: includes/admin.php:155
+msgid "Aufrufe nach Tageszeit"
+msgstr ""
+
+#: includes/admin.php:156
+msgid "HERKUNFT"
+msgstr ""
+
+#: includes/admin.php:156
+msgid "Wie kommen Aufrufe an?"
+msgstr ""
+
+#: includes/admin.php:156
+msgid "Nur Kategorien, keine fremden URLs oder Suchbegriffe. „Direkt / unbekannt“ umfasst auch unterdrückte Herkunftsangaben."
+msgstr ""
+
+#: includes/admin.php:158
+msgid "DATENSPARSAM VOREINGESTELLT"
+msgstr ""
+
+#: includes/admin.php:158
+msgid "Du behältst die Kontrolle."
+msgstr ""
+
+#: includes/admin.php:158
+msgid "Keine Statistik-Cookies, keine Profile, keine gespeicherten IP-Adressen. Die Auswahl wird bis zu 90 Tage in einem signierten Einstellungs-Cookie gemerkt. Alters- und Einwilligungsprüfung bleiben Betreiberaufgaben."
+msgstr ""
+
+#: includes/admin.php:158
+msgid "Nur Administratoren sehen die Statistik."
+msgstr ""
+
+#: includes/admin.php:158
+msgid "Do Not Track & Global Privacy Control werden respektiert."
+msgstr ""
+
+#: includes/admin.php:158
+msgid "Keine externen Analyse-, Schrift- oder Diagrammdienste."
+msgstr ""
+
+#: includes/admin.php:160
+msgid "EINWILLIGUNG & FREMDDIENSTE"
+msgstr ""
+
+#: includes/admin.php:160
+msgid "Eine klare Datenschutz-Auswahl."
+msgstr ""
+
+#: includes/admin.php:161
+msgid "Notwendige Funktionen, Statistik, externe Medien und sonstige Fremddienste sind getrennt. Optionale Kategorien sind bei der ersten Auswahl ausgeschaltet. Erlauben und Ablehnen sind gleichwertig erreichbar; Widerruf ist jederzeit möglich."
+msgstr ""
+
+#: includes/admin.php:162
+msgid "Einstellungs-Cookie:"
+msgstr ""
+
+#: includes/admin.php:162
+msgid "· maximal 90 Tage · HttpOnly · SameSite=Lax · Secure bei HTTPS · ohne Besucherkennung. Es wird erst nach einer ausdrücklichen Auswahl gesetzt. Änderungen an den registrierten Diensten oder der Messrichtlinie verlangen eine neue Auswahl."
+msgstr ""
+
+#: includes/admin.php:163
+msgid "Registrierte Dienste und Grenzen"
+msgstr ""
+
+#: includes/admin.php:168
+msgid "WordPress-Skripte und Stylesheets von externen Adressen sowie die Video-Shortcodes sind vor Zustimmung gesperrt. Hartkodierte Tags, Inline-Tracking, eingebettete Bilder, serverseitige Übertragungen und andere Plugins müssen vor Verwendung separat geprüft werden. Der Einstellungs-Cookie dokumentiert die aktuelle Auswahl im Browser; Seitenblick speichert kein personenbezogenes Einwilligungsarchiv. Rechtsgrundlagen und Nachweispflichten sind vom Betreiber zu prüfen."
+msgstr ""
+
+#: includes/admin.php:175
+msgid "Aufrufe sind keine Besucherzahlen. Aktive Zeit ist eine Näherung."
+msgstr ""
+
+#: includes/admin.php:193
+msgid "Einstellungen sind zu umfangreich."
+msgstr ""
+
+#: includes/admin.php:225
+msgid "Ansichten mit Zeit"
+msgstr ""
+
+#: includes/admin.php:225
+msgid "Aktive Sekunden"
+msgstr ""
+
+#: includes/admin.php:225
+msgid "Durchschnitt aktive Sekunden"
+msgstr ""
+
+#: includes/audit.php:153
+msgid "Lokale Oberfläche"
+msgstr ""
+
+#: includes/audit.php:162
+msgid "Weitere externe Ressourcen"
+msgstr ""
+
+#: includes/audit.php:208
+msgid "DIENSTPRÜFUNG"
+msgstr ""
+
+#: includes/audit.php:208
+msgid "Welche Fremdinhalte sind eingebunden?"
+msgstr ""
+
+#: includes/audit.php:209
+msgid "Die Prüfung liest veröffentlichte, nicht passwortgeschützte Inhalte und das lokale App-Grundgerüst. Sie erkennt unter anderem Video-Shortcodes, WordPress-Einbettungen und externe Medien-, Skript- und Stylesheet-Adressen. Quellen- und andere normale Links zählen nicht als Einbettung. Es werden keine Anbieter kontaktiert und keine Dienste automatisch freigegeben."
+msgstr ""
+
+#: includes/audit.php:210
+msgid "Inhalte prüfen & Empfehlungen anzeigen"
+msgstr ""
+
+#: includes/audit.php:213
+msgid "veröffentlichte Inhalte geprüft."
+msgstr ""
+
+#: includes/audit.php:217
+msgid "Die Größen-/Mengengrenze wurde erreicht; die Prüfung ist unvollständig."
+msgstr ""
+
+#: includes/audit.php:221
+msgid "In den geprüften Inhalten wurden keine externen Einbettungen gefunden."
+msgstr ""
+
+#: includes/audit.php:221
+msgid "YouTube und Vimeo können ausgeschaltet bleiben, solange du sie nicht einbindest."
+msgstr ""
+
+#: includes/audit.php:223
+msgid "Fundstellen in Inhalten/Grundgerüst. Anbieter-Adressen:"
+msgstr ""
+
+#: includes/audit.php:227
+msgid "Dienst wird bereits zur Auswahl angeboten."
+msgstr ""
+
+#: includes/audit.php:227
+msgid "Empfehlung: Einbettung prüfen und diesen Dienst nur bei tatsächlicher Verwendung in den Einstellungen aktivieren."
+msgstr ""
+
+#: includes/audit.php:229
+msgid "Sichere Video-Einbindung über den Seitenblick-Video-Shortcode prüfen. Hartkodierte iframes und fremde WordPress-Embeds werden durch die Diensteauswahl nicht automatisch gesperrt."
+msgstr ""
+
+#: includes/audit.php:233
+msgid "Empfehlung: Zweck und Anbieter prüfen; gegebenenfalls Einbindung entfernen, lokal bereitstellen oder eine geprüfte Consent-Integration registrieren. Eine Kategorienfreigabe allein blockiert oder kontrolliert diese Fundstelle nicht automatisch."
+msgstr ""
+
+#: includes/audit.php:251
+msgid "Eine begrenzte Inhaltsprüfung ist kein vollständiger Cookie- oder Sicherheitsaudit. Dynamischer Fremdcode, Theme-/Plugin-PHP, JavaScript-Nachladen, CSS-Ressourcen, serverseitige Übertragungen und andere Einbindungen können zusätzliche Dienste verwenden. Ein Ergebnis „nichts gefunden“ bestätigt keine vollständige Freiheit von Fremddiensten."
+msgstr ""
+
+#: includes/collection.php:72
+#: includes/i18n.php:35
+msgid "Startseite"
+msgstr ""
+
+#: includes/collection.php:193
+msgid "Messung nicht verfügbar."
+msgstr ""
+
+#: includes/collection.php:198
+#: includes/consent.php:153
+msgid "Anfrage nicht erlaubt."
+msgstr ""
+
+#: includes/collection.php:201
+#: includes/collection.php:205
+#: includes/consent.php:156
+msgid "Ungültige Anfrage."
+msgstr ""
+
+#: includes/collection.php:208
+#: includes/consent.php:159
+msgid "Zu viele Anfragen."
+msgstr ""
+
+#: includes/collection.php:212
+msgid "Keine gültige Einwilligung."
+msgstr ""
+
+#: includes/collection.php:227
+msgid "Ungültige Seitenansicht oder Einwilligung."
+msgstr ""
+
+#: includes/collection.php:230
+msgid "Zu viele Seitenansichten."
+msgstr ""
+
+#: includes/collection.php:252
+#: includes/collection.php:312
+msgid "Messung gerade nicht verfügbar."
+msgstr ""
+
+#: includes/collection.php:278
+msgid "Ungültige Zeitmessung."
+msgstr ""
+
+#: includes/collection.php:289
+msgid "Veraltete oder unplausible Zeitmessung."
+msgstr ""
+
+#: includes/collection.php:321
+msgid "Ungültiger Beleg."
+msgstr ""
+
+#: includes/consent.php:14
+msgid "Sonstige Fremdskripte und Stylesheets"
+msgstr ""
+
+#: includes/consent.php:16
+msgid "Nicht eingeordnete externe WordPress-Skripte und Stylesheets bleiben dauerhaft gesperrt. Vor einer Freigabe muss der Betreiber sie mit Dienstname, Zweck und Datenschutzhinweisen registrieren."
+msgstr ""
+
+#: includes/consent.php:23
+msgid "Videos werden erst nach Freigabe von youtube-nocookie.com geladen. Der Anbieter erhält dabei technisch unter anderem die IP-Adresse."
+msgstr ""
+
+#: includes/consent.php:30
+msgid "Videos werden erst nach Freigabe von player.vimeo.com geladen. Der Anbieter erhält dabei technisch unter anderem die IP-Adresse."
+msgstr ""
+
+#: includes/consent.php:166
+#: includes/consent.php:187
+#: includes/consent.php:191
+msgid "Ungültige Auswahl."
+msgstr ""
+
+#: includes/consent.php:195
+msgid "Freigabe ab 16 Jahren oder durch Sorgeberechtigte erforderlich."
+msgstr ""
+
+#: includes/consent.php:207
+msgid "Diese Kategorie ist nicht verfügbar."
+msgstr ""
+
+#: includes/consent.php:227
+msgid "Auswahl konnte nicht gespeichert werden."
+msgstr ""
+
+#: includes/donation.php:15
+msgid "Seitenblick unterstützen"
+msgstr ""
+
+#: includes/donation.php:16
+msgid "Wenn dir Seitenblick hilft, kannst du die Weiterentwicklung mit einer freiwilligen Spende unterstützen. Alle Funktionen bleiben unabhängig von einer Spende verfügbar."
+msgstr ""
+
+#: includes/donation.php:17
+msgid "Über PayPal spenden"
+msgstr ""
+
+#: includes/donation.php:42
+msgid "Ungültige Spendeneinstellungen."
+msgstr ""
+
+#: includes/donation.php:46
+msgid "Ungültige Spendenfreigabe."
+msgstr ""
+
+#: includes/donation.php:56
+msgid "Ein Spendentext ist zu lang oder ungültig."
+msgstr ""
+
+#: includes/donation.php:70
+msgid "sbk-panel sbk-donate"
+msgstr ""
+
+#: includes/donation.php:71
+msgid "button sbk-donate-button"
+msgstr ""
+
+#: includes/donation.php:80
+msgid "Freiwillige Spenden"
+msgstr ""
+
+#: includes/donation.php:81
+msgid "Spendenhinweis im Plugin-Backend anzeigen"
+msgstr ""
+
+#: includes/donation.php:82
+msgid "Freiwillige Unterstützung der Plugin-Weiterentwicklung. Alle Funktionen bleiben ohne Spende nutzbar. Kein PayPal-Skript, keine externen Bilder, kein Zahlungsformular und keine Verbindung zu PayPal vor dem Klick."
+msgstr ""
+
+#: includes/donation.php:83
+msgid "Überschrift"
+msgstr ""
+
+#: includes/donation.php:84
+msgid "Beschreibung"
+msgstr ""
+
+#: includes/donation.php:85
+msgid "Knopftext"
+msgstr ""
+
+#: includes/donation.php:86
+msgid "Spendenziel:"
+msgstr ""
+
+#: includes/donation.php:86
+msgid "PayPal-Spendenlink öffnen"
+msgstr ""
+
+#: includes/donation.php:86
+msgid ". Empfänger-Link ist im Plugin fest hinterlegt; keine Besucherparameter werden angehängt. Zahlung und Zahlungsstatus verwaltet PayPal."
+msgstr ""
+
+#: includes/donation.php:87
+msgid "Der Hinweis erscheint ausschließlich im Plugin-Backend. Er wird nicht in die öffentliche Website oder den Einwilligungsdialog eingefügt."
+msgstr ""
+
+#: includes/i18n.php:6
+msgid " % zum Vorzeitraum"
+msgstr ""
+
+#: includes/i18n.php:7
+msgid " Ansichten mit Zeitmessung"
+msgstr ""
+
+#: includes/i18n.php:8
+msgid " Seiten · maximal 1.000 Seiten im gewählten Zeitraum."
+msgstr ""
+
+#: includes/i18n.php:9
+msgid " Seitenaufrufe vom "
+msgstr ""
+
+#: includes/i18n.php:10
+msgid " · allgemeine Zählung "
+msgstr ""
+
+#: includes/i18n.php:11
+msgid " · keine Zählung einzelner Besucher"
+msgstr ""
+
+#: includes/i18n.php:12
+msgid " · laufender Tag enthalten; Vergleich "
+msgstr ""
+
+#: includes/i18n.php:13
+msgid " · über den gewählten Zeitraum zusammengefasst."
+msgstr ""
+
+#: includes/i18n.php:14
+msgid ". Tageswerte stehen in der Tabelle."
+msgstr ""
+
+#: includes/i18n.php:15
+msgid "Aktuelle Statistik"
+msgstr ""
+
+#: includes/i18n.php:16
+msgid "Amsel"
+msgstr ""
+
+#: includes/i18n.php:17
+msgid "Andere"
+msgstr ""
+
+#: includes/i18n.php:18
+msgid "App"
+msgstr ""
+
+#: includes/i18n.php:20
+msgid "Bitte neu anmelden; die Sitzung ist abgelaufen."
+msgstr ""
+
+#: includes/i18n.php:21
+msgid "Desktop"
+msgstr ""
+
+#: includes/i18n.php:22
+msgid "Echte Statistik ansehen"
+msgstr ""
+
+#: includes/i18n.php:23
+msgid "Eiche"
+msgstr ""
+
+#: includes/i18n.php:24
+msgid "Entdecken"
+msgstr ""
+
+#: includes/i18n.php:25
+msgid "Innerhalb der Website"
+msgstr ""
+
+#: includes/i18n.php:26
+msgid "Keine passende Seite."
+msgstr ""
+
+#: includes/i18n.php:27
+msgid "Knoten"
+msgstr ""
+
+#: includes/i18n.php:28
+msgid "Lernbuch"
+msgstr ""
+
+#: includes/i18n.php:29
+msgid "Lernkarte"
+msgstr ""
+
+#: includes/i18n.php:30
+msgid "Lernthema"
+msgstr ""
+
+#: includes/i18n.php:31
+msgid "Messung pausiert"
+msgstr ""
+
+#: includes/i18n.php:32
+msgid "Noch kein vollständiger Vergleich"
+msgstr ""
+
+#: includes/i18n.php:33
+msgid "Noch keine Messwerte. Die Statistik beginnt mit neuen Aufrufen."
+msgstr ""
+
+#: includes/i18n.php:34
+msgid "Soziale Netzwerke"
+msgstr ""
+
+#: includes/i18n.php:36
+msgid "Statistik derzeit nicht erreichbar."
+msgstr ""
+
+#: includes/i18n.php:37
+msgid "Statistik konnte nicht geladen werden."
+msgstr ""
+
+#: includes/i18n.php:39
+msgid "Stunden nach "
+msgstr ""
+
+#: includes/i18n.php:40
+msgid "Stündliche Seitenaufrufe. Jeder Balken zeigt Uhrzeit und Summe."
+msgstr ""
+
+#: includes/i18n.php:41
+msgid "Vorschau mit Beispieldaten · keine echten Zugriffszahlen"
+msgstr ""
+
+#: includes/i18n.php:42
+msgid "Vorzeitraum ohne Aufrufe"
+msgstr ""
+
+#: includes/i18n.php:43
+#: includes/wald-schein.php:25
+msgid "Wald-Schein Prüfung"
+msgstr ""
+
+#: includes/i18n.php:44
+msgid "Waldtiere"
+msgstr ""
+
+#: includes/i18n.php:45
+msgid "mit Einwilligung aktiv"
+msgstr ""
+
+#: includes/settings.php:14
+msgid "Dashboard: Überschrift"
+msgstr ""
+
+#: includes/settings.php:14
+msgid "Was wird entdeckt?"
+msgstr ""
+
+#: includes/settings.php:15
+msgid "Seitenaufrufe und freiwillig gemessene aktive Zeit. Übersichtlich, ohne Besucherprofile."
+msgstr ""
+
+#: includes/settings.php:16
+msgid "Auswahl: Überschrift"
+msgstr ""
+
+#: includes/settings.php:16
+msgid "Deine Datenschutz-Auswahl"
+msgstr ""
+
+#: includes/settings.php:17
+msgid "Notwendige Funktionen halten die Website nutzbar. Zusätzliche Statistik und externe Medien sind freiwillig. Du kannst auch mit „Nur notwendige“ uneingeschränkt weitermachen."
+msgstr ""
+
+#: includes/settings.php:18
+msgid "Notwendige Funktionen: Titel"
+msgstr ""
+
+#: includes/settings.php:18
+msgid "Notwendige Funktionen"
+msgstr ""
+
+#: includes/settings.php:19
+msgid "Notwendige Funktionen: Beschreibung"
+msgstr ""
+
+#: includes/settings.php:19
+msgid "Anmeldung, von dir gewünschte Funktionen und das Merken deiner Datenschutz-Auswahl. Das Einstellungs-Cookie gilt bis zu 90 Tage und enthält keine Besucherkennung."
+msgstr ""
+
+#: includes/settings.php:21
+msgid "Seiten und aktive Zeit werden zusammengefasst. Keine Statistik-Cookies, keine gespeicherten IP-Adressen, keine Besucherprofile. Messbelege verfallen nach 30 Minuten."
+msgstr ""
+
+#: includes/settings.php:22
+msgid "Externe Medien: Titel"
+msgstr ""
+
+#: includes/settings.php:22
+#: includes/settings.php:313
+msgid "Externe Medien"
+msgstr ""
+
+#: includes/settings.php:23
+msgid "Externe Medien: Beschreibung"
+msgstr ""
+
+#: includes/settings.php:23
+msgid "Eingebundene Videos und registrierte Fremdinhalte laden erst nach deiner Freigabe. Dabei können Anbieter Daten erhalten und eigene Cookies setzen."
+msgstr ""
+
+#: includes/settings.php:24
+msgid "Weitere Fremddienste: Titel"
+msgstr ""
+
+#: includes/settings.php:24
+msgid "Weitere registrierte Fremddienste"
+msgstr ""
+
+#: includes/settings.php:25
+msgid "Weitere Fremddienste: Beschreibung"
+msgstr ""
+
+#: includes/settings.php:25
+msgid "Diese Dienste können eigene Kennungen und Cookies verwenden. Einzelheiten findest du in der Diensteliste und in den Datenschutzhinweisen."
+msgstr ""
+
+#: includes/settings.php:26
+msgid "Angebundene Dienste ansehen"
+msgstr ""
+
+#: includes/settings.php:27
+msgid "Link zur Anbieter-Datenschutzerklärung"
+msgstr ""
+
+#: includes/settings.php:27
+msgid "Datenschutz beim Anbieter"
+msgstr ""
+
+#: includes/settings.php:28
+msgid "Alters-/Sorgeberechtigung: Bestätigung"
+msgstr ""
+
+#: includes/settings.php:28
+msgid "Ich bin mindestens 16 Jahre alt oder sorgeberechtigt. Für freiwillige Freigaben erforderlich."
+msgstr ""
+
+#: includes/settings.php:29
+msgid "Hinweis zur Serverzählung"
+msgstr ""
+
+#: includes/settings.php:29
+msgid "Allgemeine Serveraufrufe werden ohne Besucherprofil als Summen gezählt. IP-Adressen werden zur technischen Übertragung verarbeitet; die Statistik speichert sie nicht."
+msgstr ""
+
+#: includes/settings.php:30
+msgid "Nur notwendige"
+msgstr ""
+
+#: includes/settings.php:31
+msgid "Auswahl speichern"
+msgstr ""
+
+#: includes/settings.php:32
+msgid "Link zu den eigenen Datenschutzhinweisen"
+msgstr ""
+
+#: includes/settings.php:33
+msgid "Dauerhafter Auswahl-Knopf"
+msgstr ""
+
+#: includes/settings.php:34
+msgid "Fehlende Bestätigung: Hinweis"
+msgstr ""
+
+#: includes/settings.php:34
+msgid "Bitte bestätige die Alters- oder Sorgeberechtigung für freiwillige Freigaben."
+msgstr ""
+
+#: includes/settings.php:35
+msgid "Auswahl wird gespeichert …"
+msgstr ""
+
+#: includes/settings.php:36
+msgid "Speichern fehlgeschlagen: Hinweis"
+msgstr ""
+
+#: includes/settings.php:36
+msgid "Die Auswahl konnte nicht gespeichert werden. Ohne bestätigte Freigabe bleiben neue optionale Dienste gesperrt. Bitte versuche es mit einer Internetverbindung erneut."
+msgstr ""
+
+#: includes/settings.php:37
+msgid "Gesperrtes Video: Hinweis"
+msgstr ""
+
+#: includes/settings.php:37
+msgid "Dieses Video wird erst nach deiner Freigabe externer Medien geladen."
+msgstr ""
+
+#: includes/settings.php:38
+msgid "Gesperrtes Video: Knopf"
+msgstr ""
+
+#: includes/settings.php:38
+msgid "Datenschutz-Auswahl öffnen"
+msgstr ""
+
+#: includes/settings.php:112
+msgid "Ungültige IP-Liste."
+msgstr ""
+
+#: includes/settings.php:119
+msgid "Höchstens 128 IP-Einträge je Liste."
+msgstr ""
+
+#: includes/settings.php:128
+msgid "Ungültige IP-Adresse oder Netzmaske. Bitte jeden Eintrag prüfen."
+msgstr ""
+
+#: includes/settings.php:188
+msgid "Ungültige Aufbewahrung."
+msgstr ""
+
+#: includes/settings.php:203
+msgid "Alle Absender als Proxy zu vertrauen ist nicht erlaubt."
+msgstr ""
+
+#: includes/settings.php:211
+msgid "Ungültige Textfelder."
+msgstr ""
+
+#: includes/settings.php:219
+msgid "Ein Textfeld ist zu lang oder ungültig."
+msgstr ""
+
+#: includes/settings.php:223
+msgid "Ein Textfeld ist zu lang."
+msgstr ""
+
+#: includes/settings.php:232
+msgid "Unbekannter Dienst."
+msgstr ""
+
+#: includes/settings.php:242
+msgid "Ungültige Dienstefelder."
+msgstr ""
+
+#: includes/settings.php:245
+msgid "Ungültige Dienstefreigabe."
+msgstr ""
+
+#: includes/settings.php:258
+msgid "Ein Dienstefeld ist zu lang oder ungültig."
+msgstr ""
+
+#: includes/settings.php:263
+msgid "Datenschutzhinweise müssen eine gültige HTTPS-Adresse sein."
+msgstr ""
+
+#: includes/settings.php:270
+msgid "Aktive Dienste benötigen Name, Zweck und HTTPS-Datenschutzhinweis."
+msgstr ""
+
+#: includes/settings.php:285
+msgid "Texte, Dienste, Ausschlüsse & Messung einstellen"
+msgstr ""
+
+#: includes/settings.php:288
+msgid "Messung & Aufbewahrung"
+msgstr ""
+
+#: includes/settings.php:289
+msgid "Allgemeine Serverzählung aktiv"
+msgstr ""
+
+#: includes/settings.php:290
+msgid "Freiwillige Browsermessung mit Einwilligung anbieten"
+msgstr ""
+
+#: includes/settings.php:291
+msgid "Summen aufbewahren"
+msgstr ""
+
+#: includes/settings.php:295
+msgid "Tage"
+msgstr ""
+
+#: includes/settings.php:296
+msgid "Plugin-Daten bei späterem Löschen des Plugins endgültig entfernen"
+msgstr ""
+
+#: includes/settings.php:297
+msgid "Verkürzte Aufbewahrung wird bei der nächsten stündlichen Bereinigung wirksam. Aufrufe sind keine einzelnen Besucher. Bei Kindern bleiben wirksame Einwilligung und Nachweise Betreiberaufgaben."
+msgstr ""
+
+#: includes/settings.php:299
+msgid "Dienste in der Einwilligung"
+msgstr ""
+
+#: includes/settings.php:300
+msgid "Aktiviere nur tatsächlich eingebundene Dienste. Ohne aktive Dienste der Kategorie „Externe Medien“ erscheint diese Kategorie nicht. Ein ausgeschalteter registrierter Dienst bleibt gesperrt; seine Abschaltung erteilt keine Freigabe."
+msgstr ""
+
+#: includes/settings.php:309
+msgid "anbieten"
+msgstr ""
+
+#: includes/settings.php:310
+msgid "Anzeigename"
+msgstr ""
+
+#: includes/settings.php:311
+msgid "Zweck / Datenverarbeitung"
+msgstr ""
+
+#: includes/settings.php:312
+msgid "Datenschutzhinweise beim Anbieter"
+msgstr ""
+
+#: includes/settings.php:313
+msgid "Kategorie:"
+msgstr ""
+
+#: includes/settings.php:313
+msgid "Weitere Fremddienste"
+msgstr ""
+
+#: includes/settings.php:313
+msgid "Registrierte WordPress-Kennungen: "
+msgstr ""
+
+#: includes/settings.php:313
+msgid "Video-Shortcode; keine automatische Freigabe beliebiger Einbettungen."
+msgstr ""
+
+#: includes/settings.php:316
+msgid "Weitere Dienste lassen sich durch eine geprüfte WordPress-Integration registrieren. Unbekannte Fremdskripte bleiben gesperrt. Hartkodierte Einbettungen und andere Plugins müssen gesondert geprüft werden."
+msgstr ""
+
+#: includes/settings.php:318
+msgid "IP-Ausschlussliste"
+msgstr ""
+
+#: includes/settings.php:319
+msgid "Diese IPs / Netze nicht zählen"
+msgstr ""
+
+#: includes/settings.php:320
+msgid "Eine IPv4-/IPv6-Adresse oder ein CIDR-Netz je Zeile, höchstens 128 Einträge. Gilt für Serveraufrufe und Browsermessung. Die Adresse eines Besuchers wird nur zur Prüfung im Arbeitsspeicher verarbeitet, ohne Speicherung in Statistik oder Prüfprotokoll. Nur die von dir eingetragenen Ausschlüsse werden als geschützte Einstellung gespeichert. Wirkt ab dem Speichern; frühere Summen können mangels IP-Zuordnung nicht nachträglich um diese Adressen bereinigt werden."
+msgstr ""
+
+#: includes/settings.php:321
+msgid "Reverse Proxy: vertrauenswürdige Absender"
+msgstr ""
+
+#: includes/settings.php:322
+msgid "Vertrauenswürdige Proxy-IP / Netze"
+msgstr ""
+
+#: includes/settings.php:323
+msgid "Normalerweise leer lassen. Hinter einem Reverse Proxy nur dessen unmittelbare, kontrollierte Absenderadressen eintragen. X-Forwarded-For wird nur von diesen Absendern gelesen und von rechts nach links geprüft. Niemals sämtliche Besucher oder pauschal 0.0.0.0/0 beziehungsweise ::/0 vertrauen."
+msgstr ""
+
+#: includes/settings.php:327
+msgid "Texte bearbeiten"
+msgstr ""
+
+#: includes/settings.php:328
+msgid "Reiner Text, kein HTML oder JavaScript. Leeres Feld stellt den Standardtext wieder her. Änderungen am Einwilligungsdialog oder an Diensten verlangen eine neue Auswahl. Eine bisherige Ablehnung bleibt bis zum Ablauf berücksichtigt. Formulierungen müssen die tatsächliche Verarbeitung verständlich und vollständig beschreiben."
+msgstr ""
+
+#: includes/settings.php:336
+msgid "Einstellungen speichern"
+msgstr ""
+
+#: includes/storage.php:76
+msgid "Diese Version unterstützt einzelne WordPress-Websites. Eine Netzwerkaktivierung ist nicht vorgesehen."
+msgstr ""
+
+#: includes/storage.php:141
+msgid ""
+"Wir nutzen Seitenblick für eine lokale Statistik. Allgemeine Aufrufe öffentlich verfügbarer Seiten werden auf unserem Server als Summen je Seite, Tag und Stunde gezählt. Bekannte Bots, Betriebsprüfungen, angemeldete Benutzer und Anfragen mit Do Not Track oder Global Privacy Control werden ausgeschlossen. Grobe Geräteklassen und Herkunftskategorien werden nur als Summen gespeichert. Eine gespeicherte Ablehnung der Statistik wird bei weiteren Seitenabrufen respektiert. Es gibt keine Besucherprofile und keine Zählung eindeutig identifizierter Personen. URL-Parameter, Suchtexte, Namen, IP-Adressen und vollständige Browserkennungen werden in der Statistik nicht gespeichert. Der Webserver verarbeitet IP-Adressen technisch zur Übertragung; seine Protokolle und Backups sind gesondert zu berücksichtigen.\n"
+"\n"
+"Nur nach freiwilliger Zustimmung messen wir zusätzlich Ansichten und aktive Zeit im Browser. Die Auswahl wird auf ausdrücklichen Wunsch in einem signierten, gegen JavaScript-Zugriff geschützten Einstellungs-Cookie bis zu 90 Tage gespeichert. Es enthält nur Kategorien, Alters-/Sorgeberechtigungsbestätigung, Richtlinienversion und taggenaue Gültigkeit, keine zufällige Besucherkennung. Es werden keine Statistik-Cookies und keine Einträge in localStorage oder sessionStorage angelegt. Über „Datenschutz-Auswahl“ kann die Freigabe jederzeit zurückgenommen werden. Ein zufälliger Beleg gehört nur zu einer einzelnen Seitenansicht, verknüpft keine Seiten miteinander und verfällt nach 30 Minuten. Er wird beim Widerruf gelöscht; abgelaufene Belege werden durch die stündliche Bereinigung entfernt. Ohne funktionierende regelmäßige Wartung können abgelaufene Daten länger gespeichert bleiben. Erfasst wird sichtbare, fokussierte Zeit bis 60 Sekunden nach der letzten Interaktion; Zeitmessung ist eine Näherung und auf 30 Minuten je Ansicht begrenzt. Einwilligung ist nur für Personen ab 16 Jahren oder durch Sorgeberechtigte vorgesehen. Es erfolgt keine technische Altersprüfung.\n"
+"\n"
+"Die Summen werden standardmäßig 90 Tage aufbewahrt; die tatsächliche Einstellung und Betreiberinformationen stehen in unseren Datenschutzhinweisen. Alte Sicherungen können Daten länger enthalten. Seitenblick sendet seine Statistik nicht an externe Dienste. Freigegebene Fremdinhalte und Fremdskripte können Daten an deren Anbieter übertragen; Dienste und Zweck sind gesondert anzugeben. Von WordPress eingereihte externe Skripte und Stylesheets werden vor Freigabe blockiert; hartkodierte Skripte, Inline-Code, Bilder und fremder Plugin-Code benötigen eine zusätzliche Prüfung und gezielte Integration. Bereits zusammengefasste Werte lassen sich keiner einzelnen Person mehr zuordnen. Rechtsgrundlage, Interessenabwägung der allgemeinen Serverzählung, Einwilligungsvorgang und Betreiberpflichten sind vom Betreiber anhand des konkreten Einsatzes zu prüfen."
+msgstr ""
+
+#: includes/wald-schein.php:22
+msgid "App installieren"
+msgstr ""
+
+#: includes/wald-schein.php:27
+msgid "Übungsrunde"
+msgstr ""
+
+#: includes/wald-schein.php:116
+msgid "Wald-Schein App-Grundgerüst"
+msgstr ""

@@ -1,0 +1,13 @@
+/node_modules/
+/dist/
+/backups/
+/tests/evidence/
+*.credentials
+*.env
+.env*
+wp-config.php
+*.sql
+*.sqlite
+*.key
+*.pem
+.DS_Store
